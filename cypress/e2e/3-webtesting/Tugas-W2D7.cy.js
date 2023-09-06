@@ -3,6 +3,7 @@ describe('Tugas Pekan 2 Day 7', () => {
         cy.visit('https://katalon-demo-cura.herokuapp.com/')
     })
 // test 1
+// test 2
   it('Berhasil Login', () => {
     cy.get('#btn-make-appointment').click()
     cy.get('#txt-username').type('John Doe')
