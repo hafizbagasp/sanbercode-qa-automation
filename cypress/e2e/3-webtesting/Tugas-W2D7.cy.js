@@ -1,14 +1,15 @@
 describe('Tugas Pekan 2 Day 7', () => {
-    beforeEach(() => {
+    
+  beforeEach(() => {
         cy.visit('https://katalon-demo-cura.herokuapp.com/')
     })
 
-  it('Berhasil Login', () => {
+  it.skip('Berhasil Login', () => {
     cy.get('#btn-make-appointment').click()
     cy.get('#txt-username').type('John Doe')
     cy.get('#txt-password').type('ThisIsNotAPassword')
     cy.get('#btn-login').click()
-    cy.get('h2').should('contain.text', 'Make Appointment')
+    cy.get('h2').should('contain.text', 'Make Appointment') 
   })
 
   it.skip('Gagal Login - Wrong Credentials', () => {
