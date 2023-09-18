@@ -1,0 +1,18 @@
+[
+    {
+        "email": "hafiztest@email.com",
+        "password": "test123"
+    },
+    {
+        "email": "wrongemail",
+        "password": "wrongpassword"
+    },
+    {
+        "email": "hafiztest@email.com",
+        "password": "passwordsalah"
+    },
+    {
+        "email": " ",
+        "password":" "
+    }
+ ]
